@@ -11,7 +11,7 @@ namespace Ucu.Poo.GameOfLife
         Cell[,] cloneboard = new Cell[boardWidth, boardHeight];
         for (int x = 0; x < boardWidth; x++)
         {
-            for (int y = 0; y < boardHeight; y++)
+            for (int y = 0; y < boardHeight; y++) //a
             {
                 int aliveNeighbors = 0;
                 for (int i = x - 1; i <= x + 1; i++)
